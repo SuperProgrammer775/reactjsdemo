@@ -22,3 +22,25 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Build output directories
+build/
+dist/
+
+# Logs
+*.log
+
+# macOS system files
+.DS_Store
+
+# Environment variables (sensitive info like PayPal client-id)
+.env
+
+# Vite cache
+.vite/
+
+# IDE settings (if you're using VSCode or other editors)
+.vscode/
+
+# Yarn lock file (if you're using npm instead of yarn)
+yarn-error.log
