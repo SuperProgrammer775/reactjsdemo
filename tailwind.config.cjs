@@ -1,8 +1,9 @@
-// tailwind.config.js
 module.exports = {
-    content: ['./src/**/*.{js,jsx,ts,tsx}'],
-    theme: {
-      extend: {},
-    },
-    plugins: [],
-  };
+  content: [
+    './src/**/*.{html,js,jsx,ts,tsx}', // Ensure this includes your JSX files
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
